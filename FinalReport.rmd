@@ -49,7 +49,7 @@ barchartGC(~infected + treatment,data=druggies, type="percent")
 
 ```
 
-This barchart shows that the people who took the AIDS treatment had a lower percentage than the people who had the placebo treatment.
+This barchart shows that the drug users with aids that took the drug have a lower percentage of having aids than those who took the placebo.
 
 ### Numerical Descriptive Results
 
@@ -76,8 +76,11 @@ fisher.test(table1)
 
 The p-value from the chi-squared test is smaller than 0.05, so we reject the null hypothesis, which means that there is a significant association between the treatment and the outcome, suggesting that the drug is effective in preventing AIDS.
 
+The fisher exact test shows the p-value is 0.0000000423, which is less than 0.05 therefore we must reject the null hypothesis. Furthermore, the odds ratio says that there is a (0.3534:1) odds, meaning that those with aids who took the treatment were more effective than those who took the placebo. 
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-The clinical trial data show that the drug triUmpsal significantly reduces the number of AIDS cases among drug users, with a lower infection rate compared to the placebo group. The inferential results confirm this effectiveness, leading to the rejection of the null hypothesis in showing triUmpsal's efficacy.
+The clinical trial data show that the drug triUmpsal significantly reduces the number of AIDS cases among drug users, with a lower infection rate compared to the placebo group. The p-value shown in both the chi squared and fisher exact tests were less than 0.05. The odds ratio on the fisher test also showed that the odd were that the drug was more effective than the placebo in those with aids ( 0.3534:1), so we reject the null hypothesis.
